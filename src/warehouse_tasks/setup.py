@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'task_client = warehouse_tasks.task_client:main',
         ],
     },
 )
